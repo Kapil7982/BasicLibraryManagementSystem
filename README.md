@@ -29,6 +29,7 @@ spring.datasource.password=port
 ```
  
 ## API Endpoints
+```bash
 - Books:
     GET /api/books/{bookId}: Get book information by ID.
     POST /api/books: Create a new book.
@@ -38,7 +39,7 @@ spring.datasource.password=port
 - Transactions:
     POST /api/transactions/borrow?userId={userId}&bookId={bookId}: Borrow a book.
     POST /api/transactions/return?transactionId={transactionId}: Return a book.
-
+```
 ## Example Usage
 1. Create a new user:
    url: http://localhost:8888/api/users
@@ -65,7 +66,7 @@ spring.datasource.password=port
 
 ## MySQL Database Data
 ```bash
- #1. Tables
+ 1. Tables
   +-------------------+
   | Tables_in_library |
   +-------------------+
