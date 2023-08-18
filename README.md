@@ -16,18 +16,18 @@ The Library Management System is a Java-based application designed to manage the
  1. Clone the repository to your local machine.
     git clone https://github.com/Kapil7982/BasicLibraryManagementSystem.git
  2. Create a MySQL database named library.
- 3. Update the application.properties file with your database configuration.
-    
-   #db specific properties
-   spring.datasource.url=jdbc:mysql://localhost:8888/library
-   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-   spring.datasource.username=your-username
-   spring.datasource.password=your-password
-   
- 5. Build and run the application using Maven
-     ./mvnw spring-boot:run
-The application will start on port 8888 (you can change the port in application.properties).
+ 3. ## MySql database details
 
+Install and connect with database
+
+```bash
+#db specific properties
+spring.datasource.url=jdbc:mysql://localhost:8888/event
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=port
+```
+ 
 ## API Endpoints
 - Books:
     GET /api/books/{bookId}: Get book information by ID.
