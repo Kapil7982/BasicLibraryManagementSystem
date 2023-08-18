@@ -64,8 +64,8 @@ spring.datasource.password=port
    }
 
 ## MySQL Database Data
-
- 1. Tables
+```bash
+ #1. Tables
   +-------------------+
   | Tables_in_library |
   +-------------------+
@@ -111,7 +111,7 @@ spring.datasource.password=port
   |  1 | 2023-08-18    | 2023-09-01 |         -28 | 2023-08-18  |       2 |       1 |
   |  2 | 2023-08-18    | 2023-09-01 |         -28 | 2023-08-18  |       3 |       2 |
   +----+---------------+------------+-------------+-------------+---------+---------+
-
+```
 ## PostMan Api Test
 
    ![WhatsApp Image 2023-08-18 at 2 10 49 PM](https://github.com/Kapil7982/BasicLibraryManagementSystem/assets/103938868/c92be118-d0ae-47c7-ac39-9f6e61bd6752)
